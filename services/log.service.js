@@ -3,11 +3,11 @@ import dedent from "dedent-js";
 
 
 const printError = (error) => {
-    console.log(chalk.bgRed(' ERROR ' + '' + error));
+    console.log(chalk.bgRed(' ERROR ') + ' ' + error);
 };
 
 const printSuccess = (message) => {
-    console.log(chalk.bgGreen(' ERROR ' + '' + message));
+    console.log(chalk.bgGreen(' SUCCESS ') + ' ' + message);
 };
 
 const printHelp = () => {
