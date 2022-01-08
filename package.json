@@ -17,6 +17,8 @@
   "author": "Denys Bilyk",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
   }
 }
