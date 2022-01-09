@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { getKeyValue, TOKEN_DICTIONARY } from './storage.service.js';
 
+const TOKEN = '719f9bb75b8a761523d828c54e06fc8f';
+
 const getWeather = async (city) => {
     const token = await getKeyValue(TOKEN_DICTIONARY.token);
     if (!token) {
